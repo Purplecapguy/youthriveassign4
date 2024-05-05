@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    max-width: 192vw;
+    font-size: 1rem;
+}
+.section1 {
+    max-width: 192vw;
+    min-height: 102.2vh;
+    background-image: url(/images/Rectangle\ 67.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 60% 100%;
+    background-color: #D7D7D7;
+}
+.section1 ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.section1 nav {
+    margin: 4.5rem;
+    padding-left: 15vw;
+}
+.section1 .link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.section1 .link a{
+    color: white;
+    text-decoration: none;
+    font-family: montserrat;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    width: 9.1875vw;
+    height: 2.875rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    text-wrap: nowrap;
+}
+.section1 .contactme {
+    border-radius: 1.875rem;
+    border: 4px solid #fff;
+    background: #fff;
+    text-wrap: nowrap;
+    color: #000;
+    font-family: montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.itblogo {
+    max-width: 192vw;
+    min-height: 31.3vh;
+    background-image: url(/images/Logo\ ITB.png);
+    background-repeat: no-repeat;
+    background-position: 100% 1%;
+    background-size: 27%;
+    z-index: -99;
+    background-color: #1D1D1D;
+}
+.itblogo {
+    display: flex;
+    max-width: 192vw;
+}
+.itblogo .itbtext {
+    display: block;
+    margin: auto 4rem;
+    max-width: 192vw;
+    p {
+        padding: 2rem 0;
+        font-family: Open Sans;
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 20.8px;
+        text-align: justify;
+        color: white;
+    }
+    h3 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 36.57px;
+        letter-spacing: 0.1854em;
+        text-align: left;
+    }
+}
+.section1 .man {
+    position: absolute;
+    width: 38vw;
+    height: 80.5vh;
+    top: 21.5%;
+    left: 52%;
+}
+.section1 .para1 {
+    margin: 10rem 20rem;
+}
+.section1 .para1 .hi {
+    font-family: Raleway;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+.section1 .para1 .name {
+    font-family: Raleway;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+    padding-top: 1.5rem;
+}
+.section1 .para1 .front-end {
+    font-family: Raleway;
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 1.5rem;
+}
+.icons {
+    display: flex;
+    width: 5rem;
+    gap: 2rem;
+    margin: 2rem 20rem;
+}
+.section3 {
+    max-width: 192vw;
+    min-height: 301.7vh;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0) 0%, rgba(1, 1, 1, 0.16) 100%);
+}
+.section3 .aboutme h3 {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38.37px;
+    letter-spacing: 0.3554em;
+}
+.section3 .aboutme p {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: center;
+    padding: 2rem 0;
+}
+.section3 .aboutme button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.seperator {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+.section3 .development {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    height: 37.3vh;
+    margin: 3rem auto;
+}
+.section3 .Skills h3 {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38.37px;
+    letter-spacing: 0.3554em;
+}
+.section3 .Skills .skills-learn {
+    width: 50vw;
+    height: 141.3vh;
+    margin: 3rem auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section3 .Skills .skills-learn .log {
+    width: 4.5rem;
+    height: 5.9rem;
+    margin: auto 3rem ;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+.section4 {
+    max-width: 192vw;
+    height: 130.5vh;
+    background: #1A1A1A;
+    background-image: url(/images/image\ 12.png);
+    background-repeat: no-repeat;
+    background-size: 100% 25%;
+}
+.section4 .img {
+    max-width: 192vw;
+    min-height: 80vh;
+}
+.section4 .img .card {
+    width: 33%;
+    height: 2%;
+}
+.section4 .portfol {
+    text-align: center;
+    border: 5px solid black;
+    margin: 6.8rem auto;
+    width: 20%;
+    padding: 10px;
+}
+.section4 ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 1rem 35rem;
+}
+.section4 p {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    padding-top: 2.3rem;
+}
+.section5 {
+    max-width: 192vw;
+    min-height: 100.8vh;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0) 0%, rgba(0, 0, 0, 0.16) 100%);
+
+    .ttt{
+        text-align: center;
+    }
+}
+.rectangle {
+    text-align: center;
+    border: 5px solid black;
+    margin: auto;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    width: 20%;
+    padding: 10px;
+}
+.rectanglelast {
+    text-align: center;
+    border: 5px solid black;
+    margin: 2rem auto;
+    width: 20%;
+    padding: 10px;
+}
+.leftdown {
+    text-align: left;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    margin: 2rem auto;
+    width: 30%;
+    padding: 10px;
+    p {
+        font-family: Montserrat;
+        font-size: 0.7rem;
+        font-weight: 700;
+        line-height: 17.07px;
+        letter-spacing: 0.04em;
+    }
+}
+.leftdownlast {
+    text-align: left;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    margin: 2rem auto;
+    width: 30%;
+    height: 40%;
+    padding-bottom: 8rem;
+    padding-left: 0.5rem;
+    p {
+        font-family: Montserrat;
+        font-size: 0.7rem;
+        font-weight: 700;
+        line-height: 17.07px;
+        letter-spacing: 0.04em;
+    }
+}
+.divide {
+    text-align: center;
+    border-right: 0.2rem solid black;
+    border-left: 0.2rem solid black;
+    margin: 6.8rem auto;
+    width: 10%;
+    padding: 10px;
+    p {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.5px;
+        letter-spacing: 0.1em;
+    }
+}
